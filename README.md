@@ -1,11 +1,11 @@
-# cocosCreatorPlugin-WechatMiniAppidList
+# WechatMiniAppidList
 
 cocos creator插件，创建微信小游戏跳转列表。
 
 每次编译微信小游戏后微信小游戏的跳转列表都会被删除，所以自己写了一个插件用来自动生成小游戏跳转列表。
 只需要下载该文件包，然后放到cocos creator插件目录就可以使用了。
 
-下面是插件界面
+# 下面是插件界面
 
  ![Image text](https://github.com/robotPin/cocosCreatorPlugin-WechatMiniAppidList/blob/master/view.png)
  
