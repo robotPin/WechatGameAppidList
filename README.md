@@ -7,6 +7,8 @@ cocos creator插件，创建微信小游戏跳转列表。
 下面是插件界面
 
  ![Image text](https://github.com/robotPin/cocosCreatorPlugin-WechatMiniAppidList/blob/master/view.png)
+ 
+ 
  1.选择小游戏编译的目录，也就是小游戏game.json文件的文件目录
 
  2.填写小游戏的appId,小游戏的名称可以不填，名称主要方便后期的增加跟删除。
