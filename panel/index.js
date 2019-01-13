@@ -1,5 +1,5 @@
 // panel/index.js, this filename needs to match the one registered in package.json
-let packageName = "wechatgame-appid-list";
+let packageName = "WechatMiniAppidList";
 const Fs = require("fire-fs");
 const Path = require("fire-path");
 let Electron = require('electron');
