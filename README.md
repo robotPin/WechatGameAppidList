@@ -18,5 +18,6 @@ cocos creator插件，创建微信小游戏跳转列表。
  4.生成下面一个自动编译选项，如果勾选，下次编译好后微信小游戏后会自动生成，就免去每次自己点击生成的麻烦了。
 
  5.如果有使用的问题，跟好的意见可以添加QQ群：912863201
+  ![Image text](https://github.com/robotPin/cocosCreatorPlugin-WechatMiniAppidList/blob/master/creator%E5%B0%8F%E6%B8%B8%E6%88%8F%E4%BA%A4%E6%B5%81%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
 
  
