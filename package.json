@@ -1,0 +1,20 @@
+{
+  "name": "wechatgame-appid-list",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Wen Ping",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/小游戏跳转列表": {
+      "accelerator": "CmdOrCtrl+Shift+w",
+      "message": "wechatgame-appid-list:open"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "小游戏跳转列表",
+    "width": 600,
+    "height": 700
+  }
+}

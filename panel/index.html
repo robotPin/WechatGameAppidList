@@ -1,0 +1,80 @@
+<div class="layout horizontal center justified">
+    <h2 class="end-justified" style="margin: 1px 0 1px 0;">微信小游戏跳转列表</h2>
+    <div class="end-justified">
+        <ui-button @confirm="onBtnClickHelpDoc" tabindex="-1">
+            帮助文档
+        </ui-button>
+    </div>
+</div>
+<hr />
+<ui-prop name="小游戏列表文件路径 :" tooltip="微信小游戏下game.json文件的路径" tabindex="-1">
+    <div class="flex-1 layout horizontal center">
+        <ui-input placeholder="请选择微信小游戏下game.json文件的目录" disabled class="flex-1" v-value="jsonRootPath"></ui-input>
+        <ui-button v-show="this.jsonRootPath!==null && this.jsonRootPath.length>0" v-on:confirm="onBtnClickOpenJsonRootPath">打开目录
+        </ui-button>
+        <ui-button class="blue" tabindex="-1" @confirm="onBtnClickSelectJsonRootPath">选择目录</ui-button>
+    </div>
+</ui-prop>
+<br />
+<ui-prop style="font-size: 18px; margin: 1px 0 1px 0;" foldable="" tabindex="-1" name="微信小游戏跳转列表" indent="0">
+    <div class="child" id="appidInput">
+        <div class="wrapper layout horizontal">
+                <div class="box" style="width: 45%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;appid</div>
+                <div class="box" style="width: 45%;">小游戏名称(可不填)</div>
+        </div>
+        <div class="group big">
+            <span>&nbsp;1&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString1"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName1"></ui-input>
+        </div>
+        <div class="group big">
+            <span>&nbsp;2&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString2"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName2"></ui-input>
+        </div>
+        <div class="group big">
+            <span>&nbsp;3&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString3"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName3"></ui-input>
+        </div>
+        <div class="group big">
+            <span>&nbsp;4&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString4"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName4"></ui-input>
+        </div>
+        <div class="group big">
+            <span>&nbsp;5&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString5"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName5"></ui-input>
+        </div>
+        <div class="group big">
+            <span>&nbsp;6&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString6"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName6"></ui-input>
+        </div>
+        <div class="group big">
+            <span>&nbsp;7&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString7"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName7"></ui-input>
+        </div>
+        <div class="group big">
+            <span>&nbsp;8&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString8"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName8"></ui-input>
+        </div>
+        <div class="group big">
+            <span>&nbsp;9&nbsp;&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString9"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName9"></ui-input>
+        </div>
+        <div class="group big">
+            <span>10&nbsp;</span><ui-input style="width: 40%;" class="big" placeholder="小游戏APPID" tabindex="-1" v-value="appidString10"></ui-input>
+            <ui-input style="width: 40%;" class="big" placeholder="小游戏名称(可以不填)" value="Big" tabindex="-1" v-value="appidName10"></ui-input>
+        </div>
+    </div>
+</ui-prop>
+<br />
+<!-- <div class="end-justified">
+        <ui-button style="width: 100px;" class="blue" tabindex="-1" @confirm="onBtnReadList">Read</ui-button>
+</div>
+<br />
+<div class="end-justified">
+        <ui-button style="width: 100px;" class="blue" tabindex="-1" @confirm="onBtnWriteFile">Write</ui-button>
+</div> -->
+<hr />
+<div class="wrapper layout vertical center">
+    <ui-button id="btn" style="width: 100px;" class="green" tabindex="-1" @confirm="onBtnClickGen">生成</ui-button>
+    <br />
+    <ui-checkbox v-on:change="onBtnClickAuto" v-bind:checked="isAutoBuild">下次编译完成后自动生成</ui-checkbox>
+</div>
