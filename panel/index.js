@@ -66,6 +66,13 @@ Editor.Panel.extend({
           let url = "https://github.com/robotPin/cocosCreatorPlugin-WechatMiniAppidList";
           Electron.shell.openExternal(url);
         },
+        onBtnClickTellMe() {
+          // let data = nodeXlsx.parse(path.join(this.excelRootPath, 'test2.xlsx'));
+          // console.log(data);
+          // return;
+          let url = "http://wpa.qq.com/msgrd?v=3&uin=1067638746&site=qq&menu=yes";
+          Electron.shell.openExternal(url);
+        },
         /**选择小游戏保存的路径 */
         onBtnClickSelectJsonRootPath() {
           let res = Editor.Dialog.openFile({
