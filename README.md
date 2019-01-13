@@ -26,6 +26,6 @@ cocos creator插件，创建微信小游戏跳转列表。
  
  下面是我的第一款微信小游戏使用该插件生成小游戏跳转列表（天天都开车）
  
- ![Image text](https://github.com/robotPin/cocosCreatorPlugin-WechatMiniAppidList/blob/master/gh_8caa99abfea6_860%20(1).jpg)
+ ![Image text](https://github.com/robotPin/cocosCreatorPlugin-WechatMiniAppidList/blob/master/%E5%A4%A9%E5%A4%A9%E9%83%BD%E5%BC%80%E8%BD%A6.jpg)
 
  
