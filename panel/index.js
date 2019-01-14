@@ -5,13 +5,13 @@ const Path = require("fire-path");
 let Electron = require('electron');
 // var chokidar = Editor.require('packages://' + packageName + '/node_modules/chokidar');
 /**appidList 文件 */
-var appidListFile = Editor.Project.path+'/packages/'+packageName+"/appidList.json";
+var appidListFile = Editor.Project.path+'/packages'+"/appidList.json";
 /**appidName 名称文件 */
-var appidNameFile = Editor.Project.path+'/packages/'+packageName+"/appidName.json";
+var appidNameFile = Editor.Project.path+'/packages'+"/appidName.json";
 /**jsonRootFile */
-var jsonRootFile = Editor.Project.path+'/packages/'+packageName+"/jsonRoot.json";
+var jsonRootFile = Editor.Project.path+'/packages'+"/jsonRoot.json";
 /**isAutoBuild */
-var autoBuildFile = Editor.Project.path+'/packages/'+packageName+"/autoBuild.json";
+var autoBuildFile = Editor.Project.path+'/packages'+"/autoBuild.json";
 
 
 Editor.Panel.extend({
