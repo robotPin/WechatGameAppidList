@@ -1,4 +1,4 @@
-# WechatMiniAppidList
+# WechatGameMiniAppidList
 
 cocos creator插件，创建微信小游戏跳转列表。
 
